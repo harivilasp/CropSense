@@ -1,0 +1,79 @@
+diseases
+=================================
+diseases=["Corn_(maize)__Cercospora_leaf_spot Gray_leaf_spot",
+"Corn(maize)__Common_rust",
+"Corn(maize)__Northern_Leaf_Blight",
+"Corn(maize)__healthy",
+"Potato_Early_blight",
+"Potato_Late_blight",
+"Potato_healthy",
+"Tomato_Bacterial_spot",
+"Tomato_Early_blight",
+"Tomato_Late_blight",
+"Tomato_Leaf_Mold",
+"Tomato_Septoria_leaf_spot",
+"Tomato_Spider_mites Two-spotted_spider_mite",
+"Tomato_Target_Spot",
+"Tomato__Tomato_Yellow_Leaf_Curl_Virus",
+"Tomato_Tomato_mosaic_virus",
+"Tomato_healthy"]
+
+==================
+crops 
+=================
+l1 = ['ARHAR (TUR)', 'BAJRA', 'BANANA', 'BARLEY', 'CASTOR SEED',
+       'CORIANDER', 'DRY CHILLIES', 'DRY GINGER', 'GARLIC', 'GRAM',
+       'GROUNDNUT', 'HORSEGRAM', 'JOWAR', 'JUTE', 'KESARI', 'LINSEED',
+       'MAIZE', 'MASOOR', 'MESTA', 'MOONG', 'ONION',
+       'OTHER KHARIF PULSES', 'OTHER RABI PULSES',
+       'PEAS & BEANS (PULSES)', 'POTATO', 'RAGI', 'RAPESEED &MUSTARD',
+       'RICE', 'SAFFLOWER', 'SANNHAMP', 'SESAMUM', 'SMALL MILLETS',
+       'SUGARCANE', 'SUNFLOWER', 'SWEET POTATO', 'TOBACCO', 'TURMERIC',
+       'URAD', 'WHEAT']
+
+===========
+Seasons
+===========
+l2 = ['AUTUMN', 'KHARIF', 'RABI', 'SUMMER', 'TOTAL ', 'WHOLE YEAR',
+       'WINTER']
+
+=============
+Districts
+============
+l3 = ['Araria', 'Arhasia', 'Arval', 'Aurangabad', 'Banka', 'Begusarai',
+       'Bhagalpur', 'Bhanka', 'Bhojpur', 'Buxar', 'Darbhanga', 'Devghar',
+       'Dumka', 'Gadhwa', 'Gaya', 'Giridih', 'Godda', 'Gopalganj',
+       'Gumala', 'Hazaribagh', 'Jamui', 'Jehanabad', 'Kaimur (Bhabua)',
+       'Katihar', 'Khagaria', 'Kishanganj', 'Lakhisarai', 'Lohardanga',
+       'Madhepura', 'Madhubani', 'Munger', 'Muzaffarpur', 'Nalanda',
+       'Nawada', 'Palamau', 'Pashchim Champaran', 'Patna',
+       'Purba Champaran', 'Purnia', 'Ranchi', 'Rohtas', 'Saharsa',
+       'Sahebganj', 'Samastipur', 'Saran', 'Sheikhpura', 'Sheohar',
+       'Singhbhum', 'Singhbhur(west)', 'Sitamarhi', 'Siwan', 'Sumal',
+       'Supaul', 'Vaishali', 'Zamui']
+
+==========
+Desiseased yield prediction
+==========
+=========
+0 to 14
+89%
+0 to 4
+============
+Dataset links
+============
+Crop Yield Prediction: 
+https://www.kaggle.com/abhinand05/crop-production-in-india
+Crop Disease prediction: "PlantVillage Disease Dataset"
+https://www.kaggle.com/emmarex/plantdisease
+===================
+Model used
+==================
+Yield Prediction: Random forest with catboost gradient boosting works when compared using pycaret
+Diseased Yield Prediction: compared between lightgbm(Light Gradient Boosting Machine) & gbr – gradient boosting regressor
+found gbr to perform better
+Disease Prediction
+used MobileNet with BatchNormalization, Dropout and softmax activation function
+also tried with MobileNetV2, NasNetMobile and MobileNetV1, but MobileNet better
+=============
+
