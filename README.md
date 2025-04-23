@@ -1,8 +1,8 @@
-# Kisan Mitra 🌾
+# CropSense 🌾
 
 **Empowering Farmers with AI-driven Agriculture Solutions**
 
-Kisan Mitra is a comprehensive web-based platform designed to assist farmers with precision agriculture tools. It combines machine learning models for yield prediction, disease detection, and market intelligence, integrated into a user-friendly web and mobile interface.
+CropSense is a comprehensive web-based platform designed to assist farmers with precision agriculture tools. It combines machine learning models for yield prediction, disease detection, and market intelligence, integrated into a user-friendly web and mobile interface.
 
 ---
 
@@ -88,7 +88,7 @@ php -S localhost:8000
 
 ## 🤝 Contributors
 
-Thanks to all contributors who helped make Kisan Mitra a success!
+Thanks to all contributors who helped make CropSense a success!
 
 ---
 
