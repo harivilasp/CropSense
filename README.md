@@ -6,12 +6,6 @@ Kisan Mitra is a comprehensive web-based platform designed to assist farmers wit
 
 ---
 
-## 🌐 Live Site
-
-> (You can deploy on Netlify, Vercel or your custom server)
-
----
-
 ## 🔧 Features
 
 ### 🎯 Core Modules
