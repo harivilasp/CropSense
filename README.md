@@ -34,7 +34,7 @@ CropSense is a comprehensive web-based platform designed to assist farmers with 
 ## 📁 Project Structure
 
 ```
-Kisan-Mitra/
+CropSense/
 │
 ├── Backend/
 │   ├── app.py
